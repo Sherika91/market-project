@@ -5,6 +5,6 @@ from .apps import OrdersConfig
 
 app_name = OrdersConfig.name
 
-urlpatters = [
+urlpatterns = [
     path('create/', views.order_create, name='order_create')
 ]
